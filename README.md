@@ -19,6 +19,7 @@ This is a React application using various libraries and tools such as MUI, Redux
 2. Create .env file: Create file named .env in root of project. Copy and paste code from .env.example to .env file
 
 3. Install the dependencies:
+   ```sh
    npm install
 
 4. Run server:
@@ -28,3 +29,5 @@ This is a React application using various libraries and tools such as MUI, Redux
 
 5. Confirm port:
    Server runs to localhost:3000 port. After starting the frontend, you need to confirm the use of a different port. By default it will used localhost:3001
+   ```sh
+   npm run dev
