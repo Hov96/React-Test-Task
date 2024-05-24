@@ -13,11 +13,18 @@ This is a React application using various libraries and tools such as MUI, Redux
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
-   cd my-app
+   git clone https://github.com/Hov96/React-Test-Task.git
+   cd React-Test-Task
 
-2. Install the dependencies:
+2. Create .env file: Create file named .env in root of project. Copy and paste code from .env.example to .env file
+
+3. Install the dependencies:
    npm install
 
-3. Confirm port:
-   If you start the backend first, it will use the localhost:3000 port. After starting the frontend, you need to confirm the use of a different port.
+4. Run server:
+   Open backend project and run the server
+   ```sh
+   npm start
+
+5. Confirm port:
+   Server runs to localhost:3000 port. After starting the frontend, you need to confirm the use of a different port. By default it will used localhost:3001
